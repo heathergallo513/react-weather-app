@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Berlin" />
+        <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
           <a
@@ -23,6 +23,14 @@ export default function App() {
             rel="noreferrer"
           >
             open-sourced on GitHub
+          </a>
+          and is hosted on{" "}
+          <a
+            href="https://tranquil-baklava-8b8362.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
